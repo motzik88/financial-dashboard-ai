@@ -10,13 +10,13 @@
 
 ## Phase 3.1: Setup & Project Structure
 
-- [ ] T001 Create project directory structure (backend/, frontend/, docs/)
-- [ ] T002 Initialize backend Python project with FastAPI dependencies (requirements.txt)
-- [ ] T003 Initialize frontend Python project with Streamlit dependencies (requirements.txt)
-- [ ] T004 [P] Configure backend linting (black, flake8, mypy) in backend/pyproject.toml
-- [ ] T005 [P] Configure frontend linting (black, flake8) in frontend/pyproject.toml
-- [ ] T006 [P] Setup environment configuration (.env.example, config.py)
-- [ ] T007 [P] Initialize git hooks for pre-commit (black, tests)
+- [x] T001 Create project directory structure (backend/, frontend/, docs/)
+- [x] T002 Initialize backend Python project with FastAPI dependencies (requirements.txt)
+- [x] T003 Initialize frontend Python project with Streamlit dependencies (requirements.txt)
+- [x] T004 [P] Configure backend linting (black, flake8, mypy) in backend/pyproject.toml
+- [x] T005 [P] Configure frontend linting (black, flake8) in frontend/pyproject.toml
+- [x] T006 [P] Setup environment configuration (.env.example, config.py)
+- [x] T007 [P] Initialize git hooks for pre-commit (black, tests)
 
 ## Phase 3.2: API Contracts & Tests First (TDD) ⚠️ MUST COMPLETE BEFORE 3.3
 
@@ -80,19 +80,19 @@
 ## Phase 3.7: Frontend Components
 
 ### Streamlit Components
-- [ ] T042 [P] SearchWidget component in frontend/src/components/search_widget.py
-- [ ] T043 [P] ChartDisplay component in frontend/src/components/chart_display.py
-- [ ] T044 [P] ChatInterface component in frontend/src/components/chat_interface.py
-- [ ] T045 [P] DashboardLayout component in frontend/src/components/dashboard_layout.py
+- [x] T042 [P] SearchWidget component in frontend/src/components/search_widget.py
+- [x] T043 [P] ChartDisplay component in frontend/src/components/chart_display.py
+- [x] T044 [P] ChatInterface component in frontend/src/components/chat_interface.py
+- [x] T045 [P] DashboardLayout component in frontend/src/components/dashboard_layout.py
 
 ### Pages
-- [ ] T046 Main dashboard page in frontend/src/pages/dashboard.py
+- [x] T046 Main dashboard page in frontend/src/pages/dashboard.py
 - [ ] T047 Company analysis page in frontend/src/pages/company_analysis.py
 - [ ] T048 [P] Settings page in frontend/src/pages/settings.py
 
 ### Frontend Services
-- [ ] T049 [P] APIClient for backend communication in frontend/src/services/api_client.py
-- [ ] T050 [P] SessionManager for frontend state in frontend/src/services/session_manager.py
+- [x] T049 [P] APIClient for backend communication in frontend/src/services/api_client.py
+- [x] T050 [P] SessionManager for frontend state in frontend/src/services/session_manager.py
 
 ## Phase 3.8: Integration & Middleware
 
