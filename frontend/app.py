@@ -106,7 +106,7 @@ def main():
         # Welcome screen
         st.title("🎯 Welcome to Financial Dashboard")
         st.markdown("""
-        ### AI-Powered Investment Analysis Platform
+        ### Elad Hagever
         
         **Features:**
         - 🔍 Search companies by ticker or name
